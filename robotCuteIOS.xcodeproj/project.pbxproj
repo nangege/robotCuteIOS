@@ -7,6 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DA6870018E1302400D9EA2B /* SASliderRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9918DF17A3007A225E /* SASliderRight.m */; };
+		6DA6870118E1302400D9EA2B /* imageViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBFE18DDEE7F007A225E /* imageViewController.mm */; };
+		6DA6870218E1302400D9EA2B /* ImageUtils_0.7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC0A18DDF105007A225E /* ImageUtils_0.7.cpp */; };
+		6DA6870318E1302400D9EA2B /* facesketch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBDC18DDEDDD007A225E /* facesketch.cpp */; };
+		6DA6870418E1302400D9EA2B /* SASliderLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9618DF17A3007A225E /* SASliderLeft.m */; };
+		6DA6870518E1302400D9EA2B /* CSRecordingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9118DF17A2007A225E /* CSRecordingListViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DA6870618E1302400D9EA2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBB218DDED3C007A225E /* AppDelegate.m */; };
+		6DA6870718E1302400D9EA2B /* facedetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBD818DDEDDD007A225E /* facedetector.cpp */; };
+		6DA6870818E1302400D9EA2B /* SAResizibleBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9318DF17A2007A225E /* SAResizibleBubble.m */; };
+		6DA6870918E1302400D9EA2B /* SAVideoRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9C18DF17A3007A225E /* SAVideoRangeSlider.m */; };
+		6DA6870A18E1302400D9EA2B /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBF118DDEE03007A225E /* UIImage+OpenCV.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DA6870B18E1302400D9EA2B /* facerecognition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBDA18DDEDDD007A225E /* facerecognition.cpp */; };
+		6DA6870C18E1302400D9EA2B /* cartoon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC0718DDF0BD007A225E /* cartoon.cpp */; };
+		6DA6870D18E1302400D9EA2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBAE18DDED3C007A225E /* main.m */; };
+		6DA6870E18E1302400D9EA2B /* CSScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC6C18DEFF92007A225E /* CSScreenRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DA6871018E1302400D9EA2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC8D18DF0461007A225E /* QuartzCore.framework */; };
+		6DA6871118E1302400D9EA2B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC0218DDEF31007A225E /* CoreVideo.framework */; };
+		6DA6871218E1302400D9EA2B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC8B18DF02BC007A225E /* MessageUI.framework */; };
+		6DA6871318E1302400D9EA2B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC8918DF02A3007A225E /* MediaPlayer.framework */; };
+		6DA6871418E1302400D9EA2B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC0418DDEF42007A225E /* CoreMedia.framework */; };
+		6DA6871518E1302400D9EA2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBFB18DDEE72007A225E /* AVFoundation.framework */; };
+		6DA6871618E1302400D9EA2B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF918DDEE64007A225E /* libstdc++.dylib */; };
+		6DA6871718E1302400D9EA2B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF718DDEE59007A225E /* ImageIO.framework */; };
+		6DA6871818E1302400D9EA2B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF518DDEE54007A225E /* libz.dylib */; };
+		6DA6871918E1302400D9EA2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA418DDED3B007A225E /* CoreGraphics.framework */; };
+		6DA6871A18E1302400D9EA2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA618DDED3C007A225E /* UIKit.framework */; };
+		6DA6871B18E1302400D9EA2B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF318DDEE1E007A225E /* opencv2.framework */; };
+		6DA6871C18E1302400D9EA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA218DDED3B007A225E /* Foundation.framework */; };
+		6DA6871E18E1302400D9EA2B /* lunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECCB018DF2FB3007A225E /* lunch.png */; };
+		6DA6871F18E1302400D9EA2B /* imageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBFF18DDEE7F007A225E /* imageViewController.xib */; };
+		6DA6872018E1302400D9EA2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBBA18DDED3C007A225E /* Images.xcassets */; };
+		6DA6872118E1302400D9EA2B /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE518DDEDF6007A225E /* haarcascade_frontalface_alt2.xml */; };
+		6DA6872218E1302400D9EA2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBAB18DDED3C007A225E /* InfoPlist.strings */; };
+		6DA6872318E1302400D9EA2B /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECCAC18DF2E15007A225E /* icon2.png */; };
+		6DA6872418E1302400D9EA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBB418DDED3C007A225E /* Main.storyboard */; };
+		6DA6872518E1302400D9EA2B /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE318DDEDF6007A225E /* haarcascade_eye.xml */; };
+		6DA6872618E1302400D9EA2B /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE418DDEDF6007A225E /* haarcascade_frontalface_alt.xml */; };
+		6DA6872718E1302400D9EA2B /* haarcascade_mcs_mouth.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE618DDEDF6007A225E /* haarcascade_mcs_mouth.xml */; };
+		6DA6872818E1302400D9EA2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECCAA18DF2D82007A225E /* icon.png */; };
+		6DA6872918E1302400D9EA2B /* haarcascade_smile.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE818DDEDF6007A225E /* haarcascade_smile.xml */; };
+		6DA6872A18E1302400D9EA2B /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE218DDEDF6007A225E /* haarcascade_eye_tree_eyeglasses.xml */; };
+		6DA6872B18E1302400D9EA2B /* haarcascade_mcs_nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE718DDEDF6007A225E /* haarcascade_mcs_nose.xml */; };
 		6DDECBA318DDED3B007A225E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA218DDED3B007A225E /* Foundation.framework */; };
 		6DDECBA518DDED3B007A225E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA418DDED3B007A225E /* CoreGraphics.framework */; };
 		6DDECBA718DDED3C007A225E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA618DDED3C007A225E /* UIKit.framework */; };
@@ -14,13 +56,46 @@
 		6DDECBAF18DDED3C007A225E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBAE18DDED3C007A225E /* main.m */; };
 		6DDECBB318DDED3C007A225E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBB218DDED3C007A225E /* AppDelegate.m */; };
 		6DDECBB618DDED3C007A225E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBB418DDED3C007A225E /* Main.storyboard */; };
-		6DDECBB918DDED3C007A225E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBB818DDED3C007A225E /* ViewController.m */; };
 		6DDECBBB18DDED3C007A225E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBBA18DDED3C007A225E /* Images.xcassets */; };
 		6DDECBC218DDED3C007A225E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBC118DDED3C007A225E /* XCTest.framework */; };
 		6DDECBC318DDED3C007A225E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA218DDED3B007A225E /* Foundation.framework */; };
 		6DDECBC418DDED3C007A225E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBA618DDED3C007A225E /* UIKit.framework */; };
 		6DDECBCC18DDED3C007A225E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBCA18DDED3C007A225E /* InfoPlist.strings */; };
 		6DDECBCE18DDED3C007A225E /* robotCuteIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBCD18DDED3C007A225E /* robotCuteIOSTests.m */; };
+		6DDECBDE18DDEDDD007A225E /* facedetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBD818DDEDDD007A225E /* facedetector.cpp */; };
+		6DDECBDF18DDEDDD007A225E /* facerecognition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBDA18DDEDDD007A225E /* facerecognition.cpp */; };
+		6DDECBE018DDEDDD007A225E /* facesketch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBDC18DDEDDD007A225E /* facesketch.cpp */; };
+		6DDECBE918DDEDF6007A225E /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE218DDEDF6007A225E /* haarcascade_eye_tree_eyeglasses.xml */; };
+		6DDECBEA18DDEDF6007A225E /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE318DDEDF6007A225E /* haarcascade_eye.xml */; };
+		6DDECBEB18DDEDF6007A225E /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE418DDEDF6007A225E /* haarcascade_frontalface_alt.xml */; };
+		6DDECBEC18DDEDF6007A225E /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE518DDEDF6007A225E /* haarcascade_frontalface_alt2.xml */; };
+		6DDECBED18DDEDF6007A225E /* haarcascade_mcs_mouth.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE618DDEDF6007A225E /* haarcascade_mcs_mouth.xml */; };
+		6DDECBEE18DDEDF6007A225E /* haarcascade_mcs_nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE718DDEDF6007A225E /* haarcascade_mcs_nose.xml */; };
+		6DDECBEF18DDEDF6007A225E /* haarcascade_smile.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBE818DDEDF6007A225E /* haarcascade_smile.xml */; };
+		6DDECBF218DDEE03007A225E /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBF118DDEE03007A225E /* UIImage+OpenCV.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DDECBF418DDEE1E007A225E /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF318DDEE1E007A225E /* opencv2.framework */; };
+		6DDECBF618DDEE54007A225E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF518DDEE54007A225E /* libz.dylib */; };
+		6DDECBF818DDEE59007A225E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF718DDEE59007A225E /* ImageIO.framework */; };
+		6DDECBFA18DDEE64007A225E /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBF918DDEE64007A225E /* libstdc++.dylib */; };
+		6DDECBFC18DDEE72007A225E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECBFB18DDEE72007A225E /* AVFoundation.framework */; };
+		6DDECC0018DDEE7F007A225E /* imageViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECBFE18DDEE7F007A225E /* imageViewController.mm */; };
+		6DDECC0118DDEE7F007A225E /* imageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECBFF18DDEE7F007A225E /* imageViewController.xib */; };
+		6DDECC0318DDEF31007A225E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC0218DDEF31007A225E /* CoreVideo.framework */; };
+		6DDECC0518DDEF42007A225E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC0418DDEF42007A225E /* CoreMedia.framework */; };
+		6DDECC0918DDF0BD007A225E /* cartoon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC0718DDF0BD007A225E /* cartoon.cpp */; };
+		6DDECC0C18DDF105007A225E /* ImageUtils_0.7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC0A18DDF105007A225E /* ImageUtils_0.7.cpp */; };
+		6DDECC6D18DEFF92007A225E /* CSScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC6C18DEFF92007A225E /* CSScreenRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DDECC8A18DF02A3007A225E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC8918DF02A3007A225E /* MediaPlayer.framework */; };
+		6DDECC8C18DF02BC007A225E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC8B18DF02BC007A225E /* MessageUI.framework */; };
+		6DDECC8E18DF0461007A225E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDECC8D18DF0461007A225E /* QuartzCore.framework */; };
+		6DDECC9E18DF17A3007A225E /* CSRecordingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9118DF17A2007A225E /* CSRecordingListViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DDECC9F18DF17A3007A225E /* SAResizibleBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9318DF17A2007A225E /* SAResizibleBubble.m */; };
+		6DDECCA118DF17A3007A225E /* SASliderLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9618DF17A3007A225E /* SASliderLeft.m */; };
+		6DDECCA318DF17A3007A225E /* SASliderRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9918DF17A3007A225E /* SASliderRight.m */; };
+		6DDECCA518DF17A3007A225E /* SAVideoRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDECC9C18DF17A3007A225E /* SAVideoRangeSlider.m */; };
+		6DDECCAB18DF2D82007A225E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECCAA18DF2D82007A225E /* icon.png */; };
+		6DDECCAD18DF2E15007A225E /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECCAC18DF2E15007A225E /* icon2.png */; };
+		6DDECCB118DF2FB3007A225E /* lunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDECCB018DF2FB3007A225E /* lunch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +109,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DA6872F18E1302400D9EA2B /* robotCuteIOS copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "robotCuteIOS copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA6873018E1302400D9EA2B /* robotCuteIOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "robotCuteIOS copy-Info.plist"; path = "/Users/zhanghuiping/Desktop/IOSNewBegin/robotCuteIOS/robotCuteIOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		6DDECB9F18DDED3B007A225E /* robotCuteIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = robotCuteIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDECBA218DDED3B007A225E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DDECBA418DDED3B007A225E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,23 +122,98 @@
 		6DDECBB118DDED3C007A225E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DDECBB218DDED3C007A225E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6DDECBB518DDED3C007A225E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6DDECBB718DDED3C007A225E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DDECBB818DDED3C007A225E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DDECBBA18DDED3C007A225E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6DDECBC018DDED3C007A225E /* robotCuteIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = robotCuteIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDECBC118DDED3C007A225E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6DDECBC918DDED3C007A225E /* robotCuteIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "robotCuteIOSTests-Info.plist"; sourceTree = "<group>"; };
 		6DDECBCB18DDED3C007A225E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DDECBCD18DDED3C007A225E /* robotCuteIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = robotCuteIOSTests.m; sourceTree = "<group>"; };
+		6DDECBD818DDEDDD007A225E /* facedetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = facedetector.cpp; path = robotCuteIOS/robotCute/facedetector.cpp; sourceTree = "<group>"; };
+		6DDECBD918DDEDDD007A225E /* facedetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = facedetector.h; path = robotCuteIOS/robotCute/facedetector.h; sourceTree = "<group>"; };
+		6DDECBDA18DDEDDD007A225E /* facerecognition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = facerecognition.cpp; path = robotCuteIOS/robotCute/facerecognition.cpp; sourceTree = "<group>"; };
+		6DDECBDB18DDEDDD007A225E /* facerecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = facerecognition.h; path = robotCuteIOS/robotCute/facerecognition.h; sourceTree = "<group>"; };
+		6DDECBDC18DDEDDD007A225E /* facesketch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = facesketch.cpp; path = robotCuteIOS/robotCute/facesketch.cpp; sourceTree = "<group>"; };
+		6DDECBDD18DDEDDD007A225E /* facesketch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = facesketch.h; path = robotCuteIOS/robotCute/facesketch.h; sourceTree = "<group>"; };
+		6DDECBE218DDEDF6007A225E /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_eye_tree_eyeglasses.xml; path = robotCuteIOS/robotCute/haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		6DDECBE318DDEDF6007A225E /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_eye.xml; path = robotCuteIOS/robotCute/haarcascade_eye.xml; sourceTree = "<group>"; };
+		6DDECBE418DDEDF6007A225E /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_alt.xml; path = robotCuteIOS/robotCute/haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		6DDECBE518DDEDF6007A225E /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_alt2.xml; path = robotCuteIOS/robotCute/haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		6DDECBE618DDEDF6007A225E /* haarcascade_mcs_mouth.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_mcs_mouth.xml; path = robotCuteIOS/robotCute/haarcascade_mcs_mouth.xml; sourceTree = "<group>"; };
+		6DDECBE718DDEDF6007A225E /* haarcascade_mcs_nose.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_mcs_nose.xml; path = robotCuteIOS/robotCute/haarcascade_mcs_nose.xml; sourceTree = "<group>"; };
+		6DDECBE818DDEDF6007A225E /* haarcascade_smile.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_smile.xml; path = robotCuteIOS/robotCute/haarcascade_smile.xml; sourceTree = "<group>"; };
+		6DDECBF018DDEE03007A225E /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OpenCV.h"; path = "robotCuteIOS/robotCute/UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		6DDECBF118DDEE03007A225E /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "UIImage+OpenCV.mm"; path = "robotCuteIOS/robotCute/UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		6DDECBF318DDEE1E007A225E /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = robotCuteIOS/opencv2.framework; sourceTree = "<group>"; };
+		6DDECBF518DDEE54007A225E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6DDECBF718DDEE59007A225E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6DDECBF918DDEE64007A225E /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		6DDECBFB18DDEE72007A225E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6DDECBFD18DDEE7F007A225E /* imageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageViewController.h; sourceTree = "<group>"; };
+		6DDECBFE18DDEE7F007A225E /* imageViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = imageViewController.mm; sourceTree = "<group>"; };
+		6DDECBFF18DDEE7F007A225E /* imageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imageViewController.xib; sourceTree = "<group>"; };
+		6DDECC0218DDEF31007A225E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6DDECC0418DDEF42007A225E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6DDECC0718DDF0BD007A225E /* cartoon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cartoon.cpp; path = robotCuteIOS/cartoon/cartoon.cpp; sourceTree = "<group>"; };
+		6DDECC0818DDF0BD007A225E /* cartoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cartoon.h; path = robotCuteIOS/cartoon/cartoon.h; sourceTree = "<group>"; };
+		6DDECC0A18DDF105007A225E /* ImageUtils_0.7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageUtils_0.7.cpp; path = robotCuteIOS/cartoon/ImageUtils_0.7.cpp; sourceTree = "<group>"; };
+		6DDECC0B18DDF105007A225E /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageUtils.h; path = robotCuteIOS/cartoon/ImageUtils.h; sourceTree = "<group>"; };
+		6DDECC6B18DEFF92007A225E /* CSScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSScreenRecorder.h; path = robotCuteIOS/screenRecord/CSScreenRecorder.h; sourceTree = "<group>"; };
+		6DDECC6C18DEFF92007A225E /* CSScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSScreenRecorder.m; path = robotCuteIOS/screenRecord/CSScreenRecorder.m; sourceTree = "<group>"; };
+		6DDECC8918DF02A3007A225E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6DDECC8B18DF02BC007A225E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6DDECC8D18DF0461007A225E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6DDECC9018DF17A2007A225E /* CSRecordingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRecordingListViewController.h; sourceTree = "<group>"; };
+		6DDECC9118DF17A2007A225E /* CSRecordingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRecordingListViewController.m; sourceTree = "<group>"; };
+		6DDECC9218DF17A2007A225E /* SAResizibleBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAResizibleBubble.h; sourceTree = "<group>"; };
+		6DDECC9318DF17A2007A225E /* SAResizibleBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAResizibleBubble.m; sourceTree = "<group>"; };
+		6DDECC9518DF17A3007A225E /* SASliderLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASliderLeft.h; sourceTree = "<group>"; };
+		6DDECC9618DF17A3007A225E /* SASliderLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASliderLeft.m; sourceTree = "<group>"; };
+		6DDECC9818DF17A3007A225E /* SASliderRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASliderRight.h; sourceTree = "<group>"; };
+		6DDECC9918DF17A3007A225E /* SASliderRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASliderRight.m; sourceTree = "<group>"; };
+		6DDECC9B18DF17A3007A225E /* SAVideoRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVideoRangeSlider.h; sourceTree = "<group>"; };
+		6DDECC9C18DF17A3007A225E /* SAVideoRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVideoRangeSlider.m; sourceTree = "<group>"; };
+		6DDECCAA18DF2D82007A225E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = robotCuteIOS/icon.png; sourceTree = "<group>"; };
+		6DDECCAC18DF2E15007A225E /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = robotCuteIOS/icon2.png; sourceTree = "<group>"; };
+		6DDECCB018DF2FB3007A225E /* lunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lunch.png; path = robotCuteIOS/lunch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6DA6870F18E1302400D9EA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA6871018E1302400D9EA2B /* QuartzCore.framework in Frameworks */,
+				6DA6871118E1302400D9EA2B /* CoreVideo.framework in Frameworks */,
+				6DA6871218E1302400D9EA2B /* MessageUI.framework in Frameworks */,
+				6DA6871318E1302400D9EA2B /* MediaPlayer.framework in Frameworks */,
+				6DA6871418E1302400D9EA2B /* CoreMedia.framework in Frameworks */,
+				6DA6871518E1302400D9EA2B /* AVFoundation.framework in Frameworks */,
+				6DA6871618E1302400D9EA2B /* libstdc++.dylib in Frameworks */,
+				6DA6871718E1302400D9EA2B /* ImageIO.framework in Frameworks */,
+				6DA6871818E1302400D9EA2B /* libz.dylib in Frameworks */,
+				6DA6871918E1302400D9EA2B /* CoreGraphics.framework in Frameworks */,
+				6DA6871A18E1302400D9EA2B /* UIKit.framework in Frameworks */,
+				6DA6871B18E1302400D9EA2B /* opencv2.framework in Frameworks */,
+				6DA6871C18E1302400D9EA2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DDECB9C18DDED3B007A225E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDECC8E18DF0461007A225E /* QuartzCore.framework in Frameworks */,
+				6DDECC0318DDEF31007A225E /* CoreVideo.framework in Frameworks */,
+				6DDECC8C18DF02BC007A225E /* MessageUI.framework in Frameworks */,
+				6DDECC8A18DF02A3007A225E /* MediaPlayer.framework in Frameworks */,
+				6DDECC0518DDEF42007A225E /* CoreMedia.framework in Frameworks */,
+				6DDECBFC18DDEE72007A225E /* AVFoundation.framework in Frameworks */,
+				6DDECBFA18DDEE64007A225E /* libstdc++.dylib in Frameworks */,
+				6DDECBF818DDEE59007A225E /* ImageIO.framework in Frameworks */,
+				6DDECBF618DDEE54007A225E /* libz.dylib in Frameworks */,
 				6DDECBA518DDED3B007A225E /* CoreGraphics.framework in Frameworks */,
 				6DDECBA718DDED3C007A225E /* UIKit.framework in Frameworks */,
+				6DDECBF418DDEE1E007A225E /* opencv2.framework in Frameworks */,
 				6DDECBA318DDED3B007A225E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,10 +234,17 @@
 		6DDECB9618DDED3B007A225E = {
 			isa = PBXGroup;
 			children = (
+				6DDECCA718DF2D27007A225E /* resource */,
+				6DDECC8F18DF17A2007A225E /* SAVideoRangeSlider */,
+				6DDECC8818DF0204007A225E /* header */,
+				6DDECC6A18DEFF7B007A225E /* screenRecord */,
+				6DDECC0618DDF0AE007A225E /* cartoon */,
+				6DDECBD718DDEDC5007A225E /* faceRec */,
 				6DDECBA818DDED3C007A225E /* robotCuteIOS */,
 				6DDECBC718DDED3C007A225E /* robotCuteIOSTests */,
 				6DDECBA118DDED3B007A225E /* Frameworks */,
 				6DDECBA018DDED3B007A225E /* Products */,
+				6DA6873018E1302400D9EA2B /* robotCuteIOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +253,7 @@
 			children = (
 				6DDECB9F18DDED3B007A225E /* robotCuteIOS.app */,
 				6DDECBC018DDED3C007A225E /* robotCuteIOSTests.xctest */,
+				6DA6872F18E1302400D9EA2B /* robotCuteIOS copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +261,16 @@
 		6DDECBA118DDED3B007A225E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DDECC8D18DF0461007A225E /* QuartzCore.framework */,
+				6DDECC8B18DF02BC007A225E /* MessageUI.framework */,
+				6DDECC8918DF02A3007A225E /* MediaPlayer.framework */,
+				6DDECC0418DDEF42007A225E /* CoreMedia.framework */,
+				6DDECC0218DDEF31007A225E /* CoreVideo.framework */,
+				6DDECBFB18DDEE72007A225E /* AVFoundation.framework */,
+				6DDECBF918DDEE64007A225E /* libstdc++.dylib */,
+				6DDECBF718DDEE59007A225E /* ImageIO.framework */,
+				6DDECBF518DDEE54007A225E /* libz.dylib */,
+				6DDECBF318DDEE1E007A225E /* opencv2.framework */,
 				6DDECBA218DDED3B007A225E /* Foundation.framework */,
 				6DDECBA418DDED3B007A225E /* CoreGraphics.framework */,
 				6DDECBA618DDED3C007A225E /* UIKit.framework */,
@@ -112,11 +282,12 @@
 		6DDECBA818DDED3C007A225E /* robotCuteIOS */ = {
 			isa = PBXGroup;
 			children = (
+				6DDECBFD18DDEE7F007A225E /* imageViewController.h */,
+				6DDECBFE18DDEE7F007A225E /* imageViewController.mm */,
+				6DDECBFF18DDEE7F007A225E /* imageViewController.xib */,
 				6DDECBB118DDED3C007A225E /* AppDelegate.h */,
 				6DDECBB218DDED3C007A225E /* AppDelegate.m */,
 				6DDECBB418DDED3C007A225E /* Main.storyboard */,
-				6DDECBB718DDED3C007A225E /* ViewController.h */,
-				6DDECBB818DDED3C007A225E /* ViewController.m */,
 				6DDECBBA18DDED3C007A225E /* Images.xcassets */,
 				6DDECBA918DDED3C007A225E /* Supporting Files */,
 			);
@@ -152,9 +323,111 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6DDECBD718DDEDC5007A225E /* faceRec */ = {
+			isa = PBXGroup;
+			children = (
+				6DDECBF018DDEE03007A225E /* UIImage+OpenCV.h */,
+				6DDECBF118DDEE03007A225E /* UIImage+OpenCV.mm */,
+				6DDECBE118DDEDE4007A225E /* XML */,
+				6DDECBD818DDEDDD007A225E /* facedetector.cpp */,
+				6DDECBD918DDEDDD007A225E /* facedetector.h */,
+				6DDECBDA18DDEDDD007A225E /* facerecognition.cpp */,
+				6DDECBDB18DDEDDD007A225E /* facerecognition.h */,
+				6DDECBDC18DDEDDD007A225E /* facesketch.cpp */,
+				6DDECBDD18DDEDDD007A225E /* facesketch.h */,
+			);
+			name = faceRec;
+			sourceTree = "<group>";
+		};
+		6DDECBE118DDEDE4007A225E /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				6DDECBE218DDEDF6007A225E /* haarcascade_eye_tree_eyeglasses.xml */,
+				6DDECBE318DDEDF6007A225E /* haarcascade_eye.xml */,
+				6DDECBE418DDEDF6007A225E /* haarcascade_frontalface_alt.xml */,
+				6DDECBE518DDEDF6007A225E /* haarcascade_frontalface_alt2.xml */,
+				6DDECBE618DDEDF6007A225E /* haarcascade_mcs_mouth.xml */,
+				6DDECBE718DDEDF6007A225E /* haarcascade_mcs_nose.xml */,
+				6DDECBE818DDEDF6007A225E /* haarcascade_smile.xml */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		6DDECC0618DDF0AE007A225E /* cartoon */ = {
+			isa = PBXGroup;
+			children = (
+				6DDECC0A18DDF105007A225E /* ImageUtils_0.7.cpp */,
+				6DDECC0B18DDF105007A225E /* ImageUtils.h */,
+				6DDECC0718DDF0BD007A225E /* cartoon.cpp */,
+				6DDECC0818DDF0BD007A225E /* cartoon.h */,
+			);
+			name = cartoon;
+			sourceTree = "<group>";
+		};
+		6DDECC6A18DEFF7B007A225E /* screenRecord */ = {
+			isa = PBXGroup;
+			children = (
+				6DDECC6B18DEFF92007A225E /* CSScreenRecorder.h */,
+				6DDECC6C18DEFF92007A225E /* CSScreenRecorder.m */,
+			);
+			name = screenRecord;
+			sourceTree = "<group>";
+		};
+		6DDECC8818DF0204007A225E /* header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		6DDECC8F18DF17A2007A225E /* SAVideoRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6DDECC9018DF17A2007A225E /* CSRecordingListViewController.h */,
+				6DDECC9118DF17A2007A225E /* CSRecordingListViewController.m */,
+				6DDECC9218DF17A2007A225E /* SAResizibleBubble.h */,
+				6DDECC9318DF17A2007A225E /* SAResizibleBubble.m */,
+				6DDECC9518DF17A3007A225E /* SASliderLeft.h */,
+				6DDECC9618DF17A3007A225E /* SASliderLeft.m */,
+				6DDECC9818DF17A3007A225E /* SASliderRight.h */,
+				6DDECC9918DF17A3007A225E /* SASliderRight.m */,
+				6DDECC9B18DF17A3007A225E /* SAVideoRangeSlider.h */,
+				6DDECC9C18DF17A3007A225E /* SAVideoRangeSlider.m */,
+			);
+			name = SAVideoRangeSlider;
+			path = robotCuteIOS/SAVideoRangeSlider;
+			sourceTree = "<group>";
+		};
+		6DDECCA718DF2D27007A225E /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				6DDECCAC18DF2E15007A225E /* icon2.png */,
+				6DDECCB018DF2FB3007A225E /* lunch.png */,
+				6DDECCAA18DF2D82007A225E /* icon.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6DA686FE18E1302400D9EA2B /* robotCuteIOS copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA6872C18E1302400D9EA2B /* Build configuration list for PBXNativeTarget "robotCuteIOS copy" */;
+			buildPhases = (
+				6DA686FF18E1302400D9EA2B /* Sources */,
+				6DA6870F18E1302400D9EA2B /* Frameworks */,
+				6DA6871D18E1302400D9EA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "robotCuteIOS copy";
+			productName = robotCuteIOS;
+			productReference = 6DA6872F18E1302400D9EA2B /* robotCuteIOS copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6DDECB9E18DDED3B007A225E /* robotCuteIOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DDECBD118DDED3C007A225E /* Build configuration list for PBXNativeTarget "robotCuteIOS" */;
@@ -219,18 +492,51 @@
 			targets = (
 				6DDECB9E18DDED3B007A225E /* robotCuteIOS */,
 				6DDECBBF18DDED3C007A225E /* robotCuteIOSTests */,
+				6DA686FE18E1302400D9EA2B /* robotCuteIOS copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6DA6871D18E1302400D9EA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA6871E18E1302400D9EA2B /* lunch.png in Resources */,
+				6DA6871F18E1302400D9EA2B /* imageViewController.xib in Resources */,
+				6DA6872018E1302400D9EA2B /* Images.xcassets in Resources */,
+				6DA6872118E1302400D9EA2B /* haarcascade_frontalface_alt2.xml in Resources */,
+				6DA6872218E1302400D9EA2B /* InfoPlist.strings in Resources */,
+				6DA6872318E1302400D9EA2B /* icon2.png in Resources */,
+				6DA6872418E1302400D9EA2B /* Main.storyboard in Resources */,
+				6DA6872518E1302400D9EA2B /* haarcascade_eye.xml in Resources */,
+				6DA6872618E1302400D9EA2B /* haarcascade_frontalface_alt.xml in Resources */,
+				6DA6872718E1302400D9EA2B /* haarcascade_mcs_mouth.xml in Resources */,
+				6DA6872818E1302400D9EA2B /* icon.png in Resources */,
+				6DA6872918E1302400D9EA2B /* haarcascade_smile.xml in Resources */,
+				6DA6872A18E1302400D9EA2B /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				6DA6872B18E1302400D9EA2B /* haarcascade_mcs_nose.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DDECB9D18DDED3B007A225E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDECCB118DF2FB3007A225E /* lunch.png in Resources */,
+				6DDECC0118DDEE7F007A225E /* imageViewController.xib in Resources */,
 				6DDECBBB18DDED3C007A225E /* Images.xcassets in Resources */,
+				6DDECBEC18DDEDF6007A225E /* haarcascade_frontalface_alt2.xml in Resources */,
 				6DDECBAD18DDED3C007A225E /* InfoPlist.strings in Resources */,
+				6DDECCAD18DF2E15007A225E /* icon2.png in Resources */,
 				6DDECBB618DDED3C007A225E /* Main.storyboard in Resources */,
+				6DDECBEA18DDEDF6007A225E /* haarcascade_eye.xml in Resources */,
+				6DDECBEB18DDEDF6007A225E /* haarcascade_frontalface_alt.xml in Resources */,
+				6DDECBED18DDEDF6007A225E /* haarcascade_mcs_mouth.xml in Resources */,
+				6DDECCAB18DF2D82007A225E /* icon.png in Resources */,
+				6DDECBEF18DDEDF6007A225E /* haarcascade_smile.xml in Resources */,
+				6DDECBE918DDEDF6007A225E /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				6DDECBEE18DDEDF6007A225E /* haarcascade_mcs_nose.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,13 +551,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6DA686FF18E1302400D9EA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA6870018E1302400D9EA2B /* SASliderRight.m in Sources */,
+				6DA6870118E1302400D9EA2B /* imageViewController.mm in Sources */,
+				6DA6870218E1302400D9EA2B /* ImageUtils_0.7.cpp in Sources */,
+				6DA6870318E1302400D9EA2B /* facesketch.cpp in Sources */,
+				6DA6870418E1302400D9EA2B /* SASliderLeft.m in Sources */,
+				6DA6870518E1302400D9EA2B /* CSRecordingListViewController.m in Sources */,
+				6DA6870618E1302400D9EA2B /* AppDelegate.m in Sources */,
+				6DA6870718E1302400D9EA2B /* facedetector.cpp in Sources */,
+				6DA6870818E1302400D9EA2B /* SAResizibleBubble.m in Sources */,
+				6DA6870918E1302400D9EA2B /* SAVideoRangeSlider.m in Sources */,
+				6DA6870A18E1302400D9EA2B /* UIImage+OpenCV.mm in Sources */,
+				6DA6870B18E1302400D9EA2B /* facerecognition.cpp in Sources */,
+				6DA6870C18E1302400D9EA2B /* cartoon.cpp in Sources */,
+				6DA6870D18E1302400D9EA2B /* main.m in Sources */,
+				6DA6870E18E1302400D9EA2B /* CSScreenRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DDECB9B18DDED3B007A225E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDECBB918DDED3C007A225E /* ViewController.m in Sources */,
+				6DDECCA318DF17A3007A225E /* SASliderRight.m in Sources */,
+				6DDECC0018DDEE7F007A225E /* imageViewController.mm in Sources */,
+				6DDECC0C18DDF105007A225E /* ImageUtils_0.7.cpp in Sources */,
+				6DDECBE018DDEDDD007A225E /* facesketch.cpp in Sources */,
+				6DDECCA118DF17A3007A225E /* SASliderLeft.m in Sources */,
+				6DDECC9E18DF17A3007A225E /* CSRecordingListViewController.m in Sources */,
 				6DDECBB318DDED3C007A225E /* AppDelegate.m in Sources */,
+				6DDECBDE18DDEDDD007A225E /* facedetector.cpp in Sources */,
+				6DDECC9F18DF17A3007A225E /* SAResizibleBubble.m in Sources */,
+				6DDECCA518DF17A3007A225E /* SAVideoRangeSlider.m in Sources */,
+				6DDECBF218DDEE03007A225E /* UIImage+OpenCV.mm in Sources */,
+				6DDECBDF18DDEDDD007A225E /* facerecognition.cpp in Sources */,
+				6DDECC0918DDF0BD007A225E /* cartoon.cpp in Sources */,
 				6DDECBAF18DDED3C007A225E /* main.m in Sources */,
+				6DDECC6D18DEFF92007A225E /* CSScreenRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +641,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6DA6872D18E1302400D9EA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhanghuiping/Desktop/IOSNewBegin/robotCuteIOS/robotCuteIOS,
+					"$(SDK_DIR)/System/Library/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "robotCuteIOS/robotCuteIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/robotCuteIOS/headers\"/**",
+				);
+				INFOPLIST_FILE = "robotCuteIOS copy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOSurface,
+					"-framework",
+					CoreSurface,
+					"-framework",
+					IOMobileFramebuffer,
+					"-framework",
+					IOKit,
+				);
+				PRODUCT_NAME = "robotCuteIOS copy";
+				VALID_ARCHS = "arm64 armv7s armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6DA6872E18E1302400D9EA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhanghuiping/Desktop/IOSNewBegin/robotCuteIOS/robotCuteIOS,
+					"$(SDK_DIR)/System/Library/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "robotCuteIOS/robotCuteIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/robotCuteIOS/headers\"/**",
+				);
+				INFOPLIST_FILE = "robotCuteIOS copy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOSurface,
+					"-framework",
+					CoreSurface,
+					"-framework",
+					IOMobileFramebuffer,
+					"-framework",
+					IOKit,
+				);
+				PRODUCT_NAME = "robotCuteIOS copy";
+				VALID_ARCHS = "arm64 armv7s armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		6DDECBCF18DDED3C007A225E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,10 +788,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhanghuiping/Desktop/IOSNewBegin/robotCuteIOS/robotCuteIOS,
+					"$(SDK_DIR)/System/Library/PrivateFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "robotCuteIOS/robotCuteIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/robotCuteIOS/headers\"/**",
+				);
 				INFOPLIST_FILE = "robotCuteIOS/robotCuteIOS-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOSurface,
+					"-framework",
+					CoreSurface,
+					"-framework",
+					IOMobileFramebuffer,
+					"-framework",
+					IOKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +823,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhanghuiping/Desktop/IOSNewBegin/robotCuteIOS/robotCuteIOS,
+					"$(SDK_DIR)/System/Library/PrivateFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "robotCuteIOS/robotCuteIOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/robotCuteIOS/headers\"/**",
+				);
 				INFOPLIST_FILE = "robotCuteIOS/robotCuteIOS-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOSurface,
+					"-framework",
+					CoreSurface,
+					"-framework",
+					IOMobileFramebuffer,
+					"-framework",
+					IOKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -444,6 +898,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6DA6872C18E1302400D9EA2B /* Build configuration list for PBXNativeTarget "robotCuteIOS copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA6872D18E1302400D9EA2B /* Debug */,
+				6DA6872E18E1302400D9EA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6DDECB9A18DDED3B007A225E /* Build configuration list for PBXProject "robotCuteIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -460,6 +923,7 @@
 				6DDECBD318DDED3C007A225E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DDECBD418DDED3C007A225E /* Build configuration list for PBXNativeTarget "robotCuteIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +932,7 @@
 				6DDECBD618DDED3C007A225E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

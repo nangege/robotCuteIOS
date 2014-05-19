@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.viewController = [[imageViewController alloc] init];
+    [self.view addSubview:self.viewController.view];
+    [self addChildViewController:self.viewController];
 }
 
 - (void)didReceiveMemoryWarning

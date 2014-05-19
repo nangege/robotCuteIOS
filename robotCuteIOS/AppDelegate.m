@@ -7,12 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import "imageViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    imageViewController * robotViewController = [[imageViewController alloc] init];
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:robotViewController];
+    
+    
+    
+    [navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:0.0/255.0 green:204.0/255.0 blue:153.0/255.0f alpha:1.0f]];
+    [navigationController.navigationBar  setTintColor:[UIColor colorWithRed:0.0/255.0 green:204.0/255.0 blue:153.0/255.0f alpha:1.0f]];
+    [self.window setRootViewController:navigationController];
     return YES;
 }
 							

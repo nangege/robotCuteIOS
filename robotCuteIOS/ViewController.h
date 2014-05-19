@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "imageViewController.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) imageViewController * viewController;
 @end
